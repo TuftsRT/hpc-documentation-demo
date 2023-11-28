@@ -11,7 +11,7 @@ html:
   home_page_in_navbar: false
 
 repository:
-  url: https://github.com/tuftsrt/hpc-documentation
+  url: https://github.com/tuftsrt/hpc-documentation-demo
   path_to_book: source
   branch: main
 
