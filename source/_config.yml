@@ -1,0 +1,29 @@
+title: "Tufts University HPC Cluster User Guide"
+author: Tufts University Research Technology
+copyright: "2022"
+logo: logo.png
+
+html:
+  favicon: favicon.ico
+  use_edit_page_button: true
+  use_repository_button: true
+  use_issues_button: true
+  home_page_in_navbar: false
+
+repository:
+  url: https://github.com/tuftsrt/hpc-documentation
+  path_to_book: source
+  branch: main
+
+sphinx:
+  recursive_update: true
+  config:
+    html_last_updated_fmt: "%b %d, %Y"
+    html_theme_options:
+      logo:
+        text: "HPC Cluster User Guide"
+      repository_provider: github
+    nb_custom_formats:
+        .Rmd:
+            - jupytext.reads
+            - fmt: Rmd
