@@ -1,0 +1,15 @@
+format: jb-book
+root: index
+parts:
+  - caption: Migrated Materials
+    chapters:
+    - file: migrated-materials/what-is-the-cluster
+    - file: migrated-materials/navigate-to-cluster
+  - caption: Examples
+    chapters:
+    - file: examples/dynamic-command-example
+    - file: examples/jupyter-notebook-example
+    - file: examples/markdown-notebook-example
+    - file: examples/r-markdown-example
+    - file: examples/alphafold.rst
+      title: reStructuredText Example
